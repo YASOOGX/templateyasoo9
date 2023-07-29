@@ -10,6 +10,7 @@ let end_head = document.querySelector(".end-head");
 let img_slide = document.querySelectorAll(".subject-slider > div");
 let btn_slide_left = document.querySelector(".subject-slider .btn-left");
 let btn_slide_right = document.querySelector(".subject-slider .btn-right");
+let buttonUp = document.querySelector(".up-button")
 // page_bar.appendChild(links)
 bar.onclick = function (b) {
   page_bar.classList.add("block");
@@ -78,3 +79,11 @@ for (let i = 0; i < 1; i++) {
   };
 }
 // end part img slider
+// end button 
+buttonUp.onclick=function(){
+  window.scrollTo({
+    top:0,
+    behavior:"smooth"
+  })
+}
+
