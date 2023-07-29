@@ -1,0 +1,210 @@
+@media(min-width:992px )and (max-width:1150px){
+    header ul li{
+        font-size: 16px;
+    }
+     header ul{
+         position: relative;
+         left: 50px;
+    }
+}
+@media(min-width:992px){
+    header .hide-link{
+        width: 100% !important;
+position: absolute;
+left: 0;
+top: 50px;
+        background-color: rgb(255, 255, 255) !important;
+        color: black !important;
+    }
+    header .hide-link li{
+            border-bottom: solid 2px var(--primary);
+        margin: 15px !important;
+        }
+        /* part futuer  */
+.futuer .square-futuer{
+    max-width: 30% !important;
+    margin-left: 3.3%;
+}
+}
+@media(max-width:992px){
+    /* start part  content  */
+.bg-content{
+    left: 14.3vw ;
+    width: 99vw ;
+}
+.content .icon-content img{
+    width: 50px ;
+    }
+    .content .icon p{
+        font-size: 16px ;
+    padding:10px 5% ;
+    }
+/* end part content  */
+/* ///////////////////// */
+/* part teachers  */
+.teacher .head-tech p{
+    margin: auto;
+    }
+.teacher .head-tech h1{
+padding: 20px 0 ;
+}
+/* part futuer  */
+.futuer .square-futuer{
+ 
+margin-bottom: 30px;
+}
+/* part footer  */
+footer .con-info{
+margin-bottom: 30px !important;
+}
+
+}
+@media(max-width:768px){
+    /* start part head  */
+header .logo img{
+width: 50px !important;
+height: 50px !important;
+}
+header .logo h3{
+    font-size: 20px;
+}
+.page-bar .end-head{
+
+    margin: auto;
+}
+.page-bar .end-head .button-head{
+    width: 100% !important;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: 0px !important;
+}
+.page-bar .end-head .button-head button{
+margin-top: 15px;
+}
+/* end part head  */
+/* start part landing */
+.landing{
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;    
+}
+.landing h1{
+    width: 70% !important;
+    margin: 0;
+    padding: 0;
+    text-align: center !important;
+}
+/* end part landing  */
+/* ////////////////////////////////////// */
+/* start part browsers  */
+.browsers .right h2,p{
+text-align: center !important;
+}
+.browsers .group-icon{
+margin-top: 20px;
+}
+.browsers .icon{
+width: 80%;
+}
+/* end part brossers  */
+/* /////////////////////// */
+/* start part  content  */
+.bg-content{
+    left: 3.9vw ;
+    width: 100vw ;
+}
+.content .icon-content img{
+    width: 50px ;
+    }
+    .content .icon p{
+        font-size: 16px ;
+    padding:10px 5% ;
+    }
+/* end part content  */
+/* ////////////////////////// */
+/* start part teacher  */
+.teacher .type-tech{
+    text-align: center !important;
+}
+.teacher .type-tech p{
+    margin: auto !important;
+}
+/* end part teacher  */
+/* ///////////////////////////// */
+/* part futuer  */
+.futuer .square-futuer{
+    max-width:  90% !important;
+margin-bottom: 30px;
+}
+/* //////////////////////////// */
+/* start part footer  */
+footer .search{
+    display: flex !important;
+    flex-direction: column !important;
+    /* justify-content: center !important; */
+    align-items: center;
+    }
+footer .search input{
+width: 170px;
+}
+footer .search .text{
+text-align: center !important;
+display: flex;
+align-items: center;
+}
+footer .info .fone .foot-logo {
+justify-content: center;
+}
+footer .info .fone,.ftwo,.fthree,.ffour {
+    text-align: center;
+    }
+    footer .info .fone .icon {
+    width: 100%;
+    }
+    .end{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+    }
+    /* end part footer  */
+}
+@media(max-width:375px){
+/* /////////////////////// */
+/* start part  content  */
+.bg-content{
+    left: 4.5vw ;
+    width: 99vw ;
+}
+.content .icon-content img{
+    width: 40px ;
+    }
+    .content .icon p{
+        font-size: 13px ;
+    padding:10px 5% ;
+    }
+/* end part content  */
+/* ////////////////////////// */
+/* start part teacher  */
+.teacher .head-tech p{
+width: 100%;
+margin: auto;
+}
+.teacher h1{
+    text-align: center;
+color: var(--darkblue);
+line-height: 70px;
+}
+/* end part teacher  */
+/* start part footer  */
+
+footer .search input{
+width: 130px;
+}
+    /* end part footer  */
+
+}
+@media(max-width:500px){
+
+}
